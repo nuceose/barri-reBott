@@ -15,7 +15,7 @@ bot.on('ready', () => {
     bot.user.setGame('avec une barrière');
 });
 
-bot.login("Mzg2OTU5MDMxNzEwOTA4NDE2.DR2UpQ.chIIwCqFamaDL8nfWETmdhJ72lo");
+bot.login(process.env.BOT_TOKEN);
 
 
   bot.on("guildMemberAdd", function(members){
